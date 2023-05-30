@@ -1,0 +1,52 @@
+body {
+    font-family: "digital";
+    margin: 0;
+    padding: 0;
+    background-color: #ffff50;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f50;
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+table {
+    font-size: 23px;
+}
+
+.dark-mode {
+    background-color: #215;
+    color: #0f0;
+}
+
+.dark-mode header {
+    background-color: #000;
+    color: #0f0;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
